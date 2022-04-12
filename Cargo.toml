@@ -20,14 +20,5 @@ categories = ["embedded", "hardware-support", "no-std", "network-programming"]
 [dependencies]
 nb = "1"
 no-std-net = "0.5"
-
-[dependencies.heapless]
-#version = "^0.7"
-#path="../heapless"
-git="https://github.com/mutantbob/heapless.git"
-
-[dependencies.ufmt]
-#version="*"
-#path="../../../vendor/ufmt"
-git="https://github.com/mrk-its/ufmt.git"
-branch="ptr_width_16_fix"
+heapless = "^0.7"
+ufmt = "*"
